@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_btn"
+    tools:context=".MyActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:onClick="single">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="How to do this?"
+                android:textSize="@dimen/logo_size"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item2"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_margin="8dp"
+        android:background="@color/lpink"
+        android:onClick="single"
+        android:layout_below="@+id/item1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="How to do that?"
+            android:textSize="@dimen/logo_size"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item3"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:onClick="single"
+        android:layout_below="@+id/item2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Where to do this?"
+            android:textSize="@dimen/logo_size"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item4"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_margin="8dp"
+        android:background="@color/lpink"
+        android:onClick="single"
+        android:layout_below="@+id/item3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Where to do that?"
+            android:textSize="@dimen/logo_size"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item5"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_margin="8dp"
+        android:background="@color/green_btn"
+        android:onClick="apply"
+        android:layout_below="@+id/item4">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Apply Now"
+            android:textSize="@dimen/logo_size"
+            android:gravity="center"/>
+    </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

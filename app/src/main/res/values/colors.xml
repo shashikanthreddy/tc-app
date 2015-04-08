@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_blue">#4897e4</color>
+    <color name="home_bg">#dddddd</color>
+    <color name="top_bar_bg">#4897e4</color>
+    <color name="custom_action_bar_bg">#ffffff</color>
+    <color name="logo_color">#ffffff</color>
+
+    <color name="white">#ffffff</color>
+    <color name="c3">#333333</color>
+    <color name="c5">#555555</color>
+    <color name="c7">#777777</color>
+    <color name="c9">#999999</color>
+    <color name="blue_btn">#4285f4</color>
+    <color name="gray_btn">#dedede</color>
+    <color name="green_btn">#4CAF50</color>
+    <color name="red_btn">#F44336</color>
+    <color name="yellow_btn">#FFC107</color>
+
+    <color name="section_heading_text">#555555</color>
+    <color name="divider_color">#cccccc</color>
+
+
+    <color name="list_card_user_name">#333333</color>
+    <color name="list_card_user_status">#777777</color>
+    <color name="list_card_bg">#ffffff</color>
+
+    <color name="contact_card_user_name">#333333</color>
+    <color name="contact_card_user_status">#777777</color>
+    <color name="contact_card_number">#999999</color>
+    <color name="contact_card_invite">#777777</color>
+
+
+
+    <color name="user_info_card_bg">#ffffff</color>
+    <color name="user_p_name">#333333</color>
+    <color name="user_p_status">#777777</color>
+    <color name="user_p_call_bg">#4CAF50</color>
+    <color name="user_p_call_text">#ffffff</color>
+    <color name="circle_btn_bg">#dedede</color>
+
+    <color name="message_text_color">#333333</color>
+    <color name="message_text_header">#777777</color>
+
+
+    <color name="note_user_name">#555555</color>
+    <color name="note_card_time">#777777</color>
+    <color name="note_card_note">#333333</color>
+
+    <color name="loc_card_bg">#A5D6A7</color>
+    <color name="loc_card_title">@color/blue_btn</color>
+    <color name="loc_card_des">#555555</color>
+
+    <color name="search_bar_hint">#999999</color>
+    <color name="tpink">#F74895</color>
+    <color name="lpink">#FFFFFF</color>
+</resources>
